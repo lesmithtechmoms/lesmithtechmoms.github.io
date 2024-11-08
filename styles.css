@@ -1,0 +1,289 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+/* Portfolio container styling */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    width: 90%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.skills-section {
+    width: 50%;
+    padding: 20px;
+}
+
+.skills-section h2 {
+    font-size: 1.8rem;
+    color: #5c6bc0;
+    margin-bottom: 20px;
+}
+
+.skills-section ul {
+    list-style: none;
+}
+
+.skills-section ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.skills-section ul li:last-child {
+    border-bottom: none;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    .skills-section {
+        width: 100%;
+    }
+}
+/* Portfolio container styling */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    width: 90%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.skills-section {
+    width: 50%;
+    padding: 20px;
+}
+
+.skills-section h2 {
+    font-size: 1.8rem;
+    color: #5c6bc0;
+    margin-bottom: 20px;
+}
+
+.skills-section ul {
+    list-style: none;
+}
+
+.skills-section ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.skills-section ul li:last-child {
+    border-bottom: none;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    .skills-section {
+        width: 100%;
+    }
+}
+/* Portfolio container styling */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    width: 90%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.skills-section {
+    width: 50%;
+    padding: 20px;
+}
+
+.skills-section h2 {
+    font-size: 1.8rem;
+    color: #5c6bc0;
+    margin-bottom: 20px;
+}
+
+.skills-section ul {
+    list-style: none;
+}
+
+.skills-section ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.skills-section ul li:last-child {
+    border-bottom: none;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    .skills-section {
+        width: 100%;
+    }
+}
+/* Portfolio container styling */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    width: 90%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.skills-section {
+    width: 50%;
+    padding: 20px;
+}
+
+.skills-section h2 {
+    font-size: 1.8rem;
+    color: #5c6bc0;
+    margin-bottom: 20px;
+}
+
+.skills-section ul {
+    list-style: none;
+}
+
+.skills-section ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.skills-section ul li:last-child {
+    border-bottom: none;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    .skills-section {
+        width: 100%;
+    }
+}
+.bonus, .closing-thought {
+    margin-top: 20px;
+}
+
+.bonus h3, .closing-thought h3 {
+    font-size: 1.4em;
+    color: #5c6bc0;
+    margin-bottom: 10px;
+}
+
+.bonus ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.closing-thought p {
+    font-style: italic;
+    color: #555;
+}
+#mission-poem {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #f9f9fc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+#mission-poem h2 {
+    text-align: center;
+    color: #5c6bc0;
+    margin-bottom: 1rem;
+}
+
+#mission-poem p {
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+#mission-poem p:last-child {
+    margin-bottom: 0;
+}
